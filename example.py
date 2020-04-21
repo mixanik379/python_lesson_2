@@ -73,8 +73,16 @@ print(sum)
 '''
 
 '''
-Задача 7
-Найти произведение цифр числа.
+# Задача 7
+# Найти произведение цифр числа.
+
+sum = 1
+integer_number = 555
+
+while integer_number > 0:
+    sum *= integer_number % 10
+    integer_number = integer_number // 10
+print(sum)
 '''
 
 '''
