@@ -20,3 +20,10 @@ age = input('Input your age')
 
 print(age, type(age))
 print(int(age), type(int(age)))
+
+'''
+print(1+1, 'student', sep='yyy', end='!')
+print()
+'''
+
+
